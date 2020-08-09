@@ -5,7 +5,16 @@
   
 <%  
 int status=RegisterDao.register(obj);  
-if(status>0)  
-out.print("You are successfully registered");  
+if(status>0)  {
+	out.print("You are successfully registered"); 
+}
+else{
+	out.print("Error!");
+}
   
-%>  
+%>
+
+<body>
+	<br>
+	<a href="index.jsp">Go Back to the Index Page</a>
+</body>  

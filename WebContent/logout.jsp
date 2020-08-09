@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>index</title>
+<title>Log Out</title>
 </head>
 <body>
-	<a href="signin.jsp">Sign In</a>
-	<a href="login.jsp">Log In</a>
-	<a href="logout.jsp">Log Out</a>
+	<h3>Successfully Logged out!</h3>
+	<br>
+	<a href="index.jsp">Go Back to the Index Page</a>
 </body>
 </html>

@@ -1,8 +1,8 @@
 package com.test4.bean;
 
 public interface Provider {
-	String DRIVER = "oracle.jdbc.driver.OracleDriver";
-	String CONNECTION_URL = "jdbc:mysql:thin:www.db4free.net:3306mybase556";
+	String DRIVER = "com.mysql.jdbc.Driver";
+	String CONNECTION_URL = "jdbc:mysql://www.db4free.net:3306/mybase556";
 	String USERNAME = "akak762";
 	String PASSWORD = "m16556!!";
 
