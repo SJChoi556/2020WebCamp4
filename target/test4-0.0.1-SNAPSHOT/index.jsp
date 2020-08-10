@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Insert title here</title>
+<title>index</title>
 </head>
 <body>
-	Hello test4! <br>
-	<% out.println("Yo Young man!"); %>
+	<a href="signin.jsp">Sign In</a>
+	<a href="login.jsp">Log In</a>
+	<a href="logout.jsp">Log Out</a>
 </body>
 </html>
